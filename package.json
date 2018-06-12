@@ -1,0 +1,25 @@
+{
+  "name": "@therebel/fetchapi",
+  "version": "0.0.1",
+  "description": "a light wrapper around node-fetch with sane defaults to simplify api calls on the server",
+  "main": "fetchapi.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/fetchapi.git"
+  },
+  "author": "Oz Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/fetchapi/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/fetchapi#readme",
+  "dependencies": {
+    "http-client": "^4.3.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.10",
+    "query-string": "^6.1.0"
+  }
+}
